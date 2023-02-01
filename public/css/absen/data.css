@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background-color: #0090ff;
+}
+
+td a {
+    background-color: #ffc223;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+table {
+    margin-left: 70px;
+}
+
+button {
+    border-radius: 10px;
+    border: none;
+    background-color: #0090ff;
+    padding: 10px;
+    display: block;
+    margin-left: 65px;
+}

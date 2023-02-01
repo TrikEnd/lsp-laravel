@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.welcome h3 {
+    margin: 50px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.menu {
+    display: grid;
+    padding: 20px;
+}
+
+.menu ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 25px;
+    list-style: none;
+}
+
+.menu a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: #0090ff;
+}
+
+h3 {
+    text-align: center;
+}
+
+.isi {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+}
+
+@media (max-width: 576px) {
+    .isi {
+        margin-left: 25px;
+        margin-right: 25px;
+        text-align: justify;
+    }
+}

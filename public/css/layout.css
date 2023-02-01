@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* daftar */
+
+.daftar {
+    background-color: #0090ff;
+    border: none;
+}
+
+.daftar:hover {
+    background-color: none;
+    transition: 0.3s;
+}
+
+/* okok */
+.nav {
+    width: 100%;
+    height: auto;
+    background-color: #333;
+}
+
+.nav ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 0.1fr));
+    justify-content: end;
+    padding: 20px;
+    list-style: none;
+    gap: 5px;
+}
+
+.nav li {
+    display: grid;
+}
+
+.nav a {
+    text-align: center;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ffc223;
+    text-decoration: none;
+    color: white;
+}
+
+.nav a:hover {
+    background-color: #ffc223;
+    transition: 0.3s;
+}
+
+@media (max-width: 567px) {
+    .daftar {
+        background-color: #0090ff;
+        border: none;
+    }
+
+    .daftar:hover {
+        background-color: none;
+        transition: 0.3s;
+    }
+
+    /* okok */
+    .nav {
+        width: 100%;
+        height: auto;
+        background-color: #333;
+    }
+
+    .nav ul {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(80px, 0.1fr));
+        justify-content: end;
+        padding: 20px;
+        list-style: none;
+        gap: 5px;
+    }
+
+    .nav li {
+        display: grid;
+    }
+
+    .nav a {
+        text-align: center;
+        display: block;
+        padding: 5px;
+        border: 1px solid #ffc223;
+        text-decoration: none;
+        color: white;
+    }
+
+    .nav a:hover {
+        background-color: #ffc223;
+        transition: 0.3s;
+    }
+}
